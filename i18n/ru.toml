@@ -2,31 +2,31 @@
 other = "Меню"
 
 [learnmore]
-other = "Learn More"
+other = " "
 
 [name]
-other = "Name"
+other = "Имя"
 
 [email]
 other = "Email"
 
 [phone]
-other = "Phone"
+other = "Номер телефона"
 
 [address]
-other = "Address"
+other = "Адрес"
 
 [yourmessage]
-other = "Your Message"
+other = "Сообщение"
 
 [send]
-other = "send"
+other = "отправить"
 
 [reset]
-other = "reset"
+other = "заново"
 
 [allarticles]
-other = "all articles"
+other = "все статьи"
 
 [readmore]
-other = "Read more…"
+other = "Подробнее..."

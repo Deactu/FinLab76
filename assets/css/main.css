@@ -4117,3 +4117,23 @@ input, select, textarea {
 					margin-bottom: 10px;
 				}
 	}	
+
+
+/*КАРУСЕЛЬ*/
+
+.owl-theme .owl-dots .owl-dot {
+    box-shadow: none !important;
+
+}
+
+	.owl-theme .owl-dots .owl-dot span {
+		background: white;
+	}
+
+	.owl-theme .owl-dots .owl-dot.active span {
+		background: #167BBC;
+	}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    box-shadow: none !important;
+}

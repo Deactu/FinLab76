@@ -1,3 +1,138 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+relativeURLs = "true"
+baseURL = "/"
+title = "FinLab76"
+languageCode = 'ru'
+defaultContentLanguage = "ru" ### ПОЧЕМУ НЕ РАБОТАЕТЬ BLIAT <- TODO
+paginate = "7"
+theme = "spectral"
+
+[params]
+fancyTitle = "FINLAB76" # title for frontpage, may include image
+description = "РЕСУРСНЫЙ ВОЛОНТЕРСКИЙ ЦЕНТР ФИНАНСОВОГО ПРОСВЕЩЕНИЯ"
+
+[[params.menu.main]]
+url = '#abobus'
+title = "Home"
+
+# [[params.menu.main]]
+# url = '/posts/'
+# title = "Posts"
+
+# [taxonomies]
+#     tag = "tags"
+#     category = "categories"
+#     series = "series"
+
+[params.one]
+enable = true
+title = 'ЛАБОРАТОРИЯ ФИНАНСОВОЙ ГРАМОТНОСТИ FINLAB 76'
+body = '''
+Лаборатория FinLab 76 направлена на повышение финансовой грамотности населения 
+Ярославской области и прилегающих к ней регионов. Специалисты данной сферы, преподаватели 
+Экономического факультета ЯрГУ им. П.Г. Демидова, на базе которого существует Лаборатория 
+FinLab 76, разработали уникальный курс базовых знаний в сфере финансовой грамотности, и совместно 
+с волонтерами, прошедшими обучение, будут осуществлять просветительскую деятельность центра.
+'''
+# TODO: надобавлять норм иконок
+[[params.one.icon]]
+icon = "fa-diamond"
+style = "1"
+label = "Lorem"
+
+[[params.one.icon]]
+icon = "fa-heart-o"
+style = "2"
+label = "Ipsum"
+
+[[params.one.icon]]
+icon = "fa-code"
+style = "3"
+label = "Dolor"
+
+[[params.one.icon]]
+icon = "fa-code"
+style = "3"
+label = "Dolor"
+
+[[params.one.icon]]
+icon = "fa-code"
+style = "3"
+label = "Dolor"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img/learn.jpg"
+title = 'УЧИМ'
+body = 'Лекции, мероприятия в игровом формате, презентации и конференции на темы финансовой грамотности'
+
+[[params.two.section]]
+img = "img/control.jpg"
+title = 'КОНТРОЛИРУЕМ'
+body = 'Наблюдение и мониторинг за деятельностью участников финансового рынка для выявления недобросовестного оказания финансовых услуг, мошенничества и других нарушений'
+
+[[params.two.section]]
+img = "img/talk.jpg"
+title = 'РАССКАЗЫВАЕМ'
+body = 'Организация мероприятий в области повышения уровня финансовой грамотности населения'
+
+[[params.two.section]]
+img = "img/change.jpg"
+title = 'МЕНЯЕМ'
+body = 'Участие в деятельности по развитию финансового просвещения, в том числе социальное проектирование'
+
+[params.three]
+enable = true
+title = 'НА КОГО НАПРАВЛЕНА НАША ДЕЯТЕЛЬНОСТЬ?'
+body = '''
+
+    <img src="img/who.jpg" style="max-width:50rem">
+
+'''
+[params.cta]
+enable = true
+title = "На кого направлена наша деятельность?"
+body = """<ul>
+<li>Обучающиеся образовательных организаций среднего профессионального и высшего образования</li>
+<li>Учащиеся школ и их родители</li>
+<li>Учителя школ</li>
+<li>Граждане пенсионного и предпенсионного возраста</li>
+<li>Граждане с низким и средним уровнем доходов</li>
+<li>Воспитанники детских домов</li>
+<li>Лица с ограниченными возможностями здоровья</li>
+<li>Начинающие предприниматели</li>
+<li>Госслужащие</li>
+<li>СМИ</li>
+<li>Граждане пенсионного и предпенсионного возраста</li>
+<li>Граждане пенсионного и предпенсионного возраста</li>
+</ul>
+"""
+
+# [[params.cta.link]]
+# href = "#"
+# text = "Activate"
+# special = true
+
+# [[params.cta.link]]
+# href = "#"
+# text = "Learn More"
+# special = false
+
+[params.contact]
+#enable = true
+#title = "Contact"
+#body = "Leave us a message."
+phone = "+49 (0) 030 000 000"
+#address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "nospam@example.com"
+#subject = "New Submission!"
+#plain = false
+
+[params.social]
+twitter = "asdgasdg"
+facebook = "asfasf"
+instagram = "sadgasdg"
+dribble = "abobus"
+telegram = "abobus"
+

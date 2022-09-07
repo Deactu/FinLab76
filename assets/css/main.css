@@ -2720,7 +2720,8 @@ input, select, textarea {
 		}
 
 			.spotlight .image img {
-				border-radius: 0;
+				padding: 1%;
+				border-radius: 0%;
 				width: 100%;
 			}
 
@@ -2742,23 +2743,23 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: rgb(22, 123, 188);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgb(22, 123, 188, 0.9);
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: rgb(22, 123, 188, 0.5);
 		}
 
 		.spotlight:nth-child(4) {
-			background-color: rgba(0, 0, 0, 0.3);
+			background-color: rgb(22, 123, 188, 0.3);
 		}
 
 		.spotlight:nth-child(5) {
-			background-color: rgba(0, 0, 0, 0.375);
+			background-color: rgb(22, 123, 188, 0.22);
 		}
 
 		.spotlight:nth-child(6) {
@@ -2805,6 +2806,11 @@ input, select, textarea {
 
 				.spotlight .image {
 					width: 100%;
+				}
+
+				.spotlight .image img {
+					width: 100%;
+					border-radius: 10%;
 				}
 
 				.spotlight .content {
@@ -2856,7 +2862,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #167BBC; /*ручки*/
+			background-color: rgb(22, 123, 188); /*ручки*/
 			color: #c8ece9;
 		}
 
@@ -3019,7 +3025,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #167BBC; /*ручки*/
+			background-color: rgb(22, 123, 188, 0.1); /*ручки*/
 			color: #d3d4e4;
 		}
 
@@ -3753,7 +3759,7 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 3em 5em 3em ;
-				height: auto;
+				/* height: auto; */
 				min-height: 0;
 			}
 
@@ -3762,11 +3768,11 @@ input, select, textarea {
 				}
 
 				#banner br {
-					display: none;
+					/* display: none; */
 				}
 
 				#banner .more {
-					display: none;
+					/* display: none; */
 				}
 
 		}
@@ -3931,7 +3937,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 4em 0 ;
-		background-color: #1d242a;
+		background-color:  rgb(22, 123, 188, 0.05);
 		text-align: center;
 	}
 
@@ -4021,7 +4027,7 @@ input, select, textarea {
 	}
 
 	body.landing #footer {
-		background-color: rgba(29, 36, 42, 0.9);
+		background-color:  rgb(22, 123, 188, 0.05);
 	}
 
 	body.is-mobile.landing #page-wrapper {
@@ -4044,7 +4050,7 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #1d242a;
+		background-color:  rgb(22, 123, 188, 0.05);
 	}
 
 
@@ -4076,7 +4082,8 @@ input, select, textarea {
 	}
 
 		.whoImage img {
-			max-width: 120%; max-height: auto;
+			max-width: 100%; max-height: auto;
+			border-radius: 10%;
 		}
 
 
@@ -4092,17 +4099,18 @@ input, select, textarea {
 		}
 
 			.whoImage {
-				max-width: 100%; 
+				max-width: 100%;
 				max-height: auto; 
-				order: 1;
+				order: 2;
 			}
 
 				.whoImage img {
 					max-width: 100%; max-height: auto;
+					border-radius: 10%;
 				}
 
 			.whoText {
-				order: 2;
+				order: 1;
 			}
 
 				.whoText li {

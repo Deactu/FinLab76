@@ -13,13 +13,29 @@
     <meta name="generator" content="Hugo 0.102.3" />
 
     
-<link rel="stylesheet" href="../css/main.min.1b445fd8e086052492953e2423c57aed06b23a2f3a3664739af735222865e59ed187e6b4573e1243018df91187913bd391753565f1850c127c2c254162b96053.css" integrity="sha512-G0Rf2OCGBSSSlT4kI8V67QayOi86NmRzmvc1Iihl5Z7Rh&#43;a0Vz4SQwGN&#43;RGHkTvTkXU1ZfGFDBJ8LCVBYrlgUw==">
+
+
+<link rel="stylesheet" href="../css/main.min.1b445fd8e086052492953e2423c57aed06b23a2f3a3664739af735222865e59ed187e6b4573e1243018df91187913bd391753565f1850c127c2c254162b96053.css">
 
 
 <noscript><link rel="stylesheet" href="../css/noscript.min.e6f1ba19697eecfddfbf83ff7181b98181998f163d7005f6ae923451556bf85bef357f43dffe1522b92c1efab7fb38441f479e39b7a03e4313a8ef12b0b01f65.css"></noscript>
 
 
 
+<link rel="stylesheet" href="../css/owl.carousel.min.css">
+<link rel="stylesheet" href="../css/owl.theme.default.min.css">
+
+
+<style>
+    .owl-theme .owl-dots .owl-dot {
+        box-shadow: none !important;
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+        box-shadow: none !important;
+    }
+
+</style>
     
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Categories"/>
@@ -54,7 +70,7 @@
 				              
 				              <li><a href="../#three">Для кого</a></li>
 				              
-				              <li><a href="../#">Фото</a></li>
+				              <li><a href="../#slider">Фото</a></li>
 				              
 				              <li><a href="../#footer">Контакты</a></li>
 				              
@@ -117,7 +133,25 @@
 
 
 
+
 <script src="../js/bundle.min.e782e74b6a26b3617d7b8d54226975384ec8c8ea308372a74df0ab1963ec7e41b87330abd1910eec69ef09bdf08a12bf1bcb5321cc4077c8d0a6c00825fc56b5.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="../js/owl.carousel.min.js"></script>
+
+<script>
+    $('.owl-carousel').owlCarousel({
+        center: true,
+        items:2,
+        loop:true,
+        autoWidth:true,
+        margin:10,
+        responsive:{
+            600:{
+                items:4
+            }
+        }
+    })
+</script>
 
 
 	</body>

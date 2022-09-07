@@ -5,7 +5,25 @@
 {{ $breakpoints := resources.Get "js/breakpoints.min.js" }}
 {{ $util := resources.Get "js/util.js" }}
 {{ $main := resources.Get "js/main.js" }}
+{{ $owl := resources.Get "js/owl.carousel.min.js"}}
 
 {{ $js := slice $jquery $jquery_scrollex $jquery_scrolly $browser $breakpoints $util $main | resources.Concat "js/bundle.js" | minify | fingerprint "sha512" }}
 
 <script src="{{ $js.RelPermalink }}"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="{{ $owl.RelPermalink }}"></script>
+
+<script>
+    $('.owl-carousel').owlCarousel({
+        center: true,
+        items:2,
+        loop:true,
+        autoWidth:true,
+        margin:10,
+        responsive:{
+            600:{
+                items:4
+            }
+        }
+    })
+</script>

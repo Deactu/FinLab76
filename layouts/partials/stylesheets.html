@@ -1,4 +1,6 @@
 {{ $css := resources.Get "css/main.css" | minify | fingerprint "sha512" }}
+{{ $owl_car := resources.Get "css/owl.carousel.min.css"}}
+{{ $own_theme := resources.Get "css/owl.theme.default.min.css"}}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
 {{ $noscript_css := resources.Get "css/noscript.css" | minify | fingerprint "sha512" }}
@@ -8,3 +10,18 @@
 {{ $custom_css := resources.Get . | minify | fingerprint "sha512" }}
 <link rel="stylesheet" href="{{ $custom_css.RelPermalink }}">
 {{ end }}
+
+<link rel="stylesheet" href="{{ $owl_car.RelPermalink }}">
+<link rel="stylesheet" href="{{ $own_theme.RelPermalink }}">
+
+
+<style>
+    .owl-theme .owl-dots .owl-dot {
+        box-shadow: none !important;
+    }
+
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+        box-shadow: none !important;
+    }
+
+</style>

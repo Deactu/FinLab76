@@ -25,7 +25,7 @@ url = '#three'
 title = "Для кого"
 
 [[params.menu.main]]
-url = '#'
+url = '#slider'
 title = "Фото"
 
 [[params.menu.main]]

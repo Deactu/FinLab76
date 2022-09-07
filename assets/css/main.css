@@ -2856,7 +2856,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #167BBC; /*ручки*/
 			color: #c8ece9;
 		}
 
@@ -3019,7 +3019,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #167BBC; /*ручки*/
 			color: #d3d4e4;
 		}
 
@@ -3940,11 +3940,11 @@ input, select, textarea {
 		}
 
 			#footer .icons a {
-				color: rgba(255, 255, 255, 0.5);
+				color: #167BBC;
 			}
 
 				#footer .icons a:hover {
-					color: #fff;
+					color: rgb(255, 255, 255);
 				}
 
 		#footer .copyright {
@@ -3953,11 +3953,11 @@ input, select, textarea {
 			letter-spacing: 0.225em;
 			list-style: none;
 			padding: 0;
-			text-transform: uppercase;
+			text-transform: none;
 		}
 
 			#footer .copyright li {
-				border-left: solid 1px rgba(255, 255, 255, 0.5);
+				/*border-left: solid 1px rgba(173, 37, 37, 0.5);*/
 				display: inline-block;
 				line-height: 1em;
 				margin-left: 1em;
@@ -4028,7 +4028,11 @@ input, select, textarea {
 		background: none;
 	}
 
-	body.is-mobile.landing #banner,
+	body.is-mobile.landing #banner {
+		background-size: cover; /*ручки*/
+        background-color: #167BBC; /*ручки*/
+        background-image: url("images/back.jpg"); /*ручки*/
+	}
 	body.is-mobile.landing .wrapper.style4 {
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");

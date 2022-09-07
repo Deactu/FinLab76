@@ -17,6 +17,10 @@ url = '#one'
 title = "Тест"
 
 [[params.menu.main]]
+url = '#two'
+title = "Направления"
+
+[[params.menu.main]]
 url = '#three'
 title = "Для кого"
 
@@ -41,7 +45,7 @@ title = "Контакты"
 enable = true
 title = 'ЛАБОРАТОРИЯ ФИНАНСОВОЙ ГРАМОТНОСТИ FINLAB 76'
 body = '''
-    <p style="text-align: left;"> 
+    <p> 
         Лаборатория FinLab 76 направлена на повышение финансовой грамотности населения 
         Ярославской области и прилегающих к ней регионов. Специалисты данной сферы, преподаватели 
         Экономического факультета ЯрГУ им. П.Г. Демидова, на базе которого существует Лаборатория 
@@ -138,20 +142,22 @@ body = '''
 # text = "Learn More"
 # special = false
 
-[params.contact]
+#[params.contact]
 #enable = true
 #title = "Contact"
 #body = "Leave us a message."
-phone = "+49 (0) 030 000 000"
+
 #address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
-email = "nospam@example.com"
+
 #subject = "New Submission!"
 #plain = false
 
 [params.social]
-twitter = "asdgasdg"
-facebook = "asfasf"
-instagram = "sadgasdg"
-dribble = "abobus"
-telegram = "abobus"
-
+phone = ""
+email = ""
+twitter = ""
+facebook = ""
+instagram = ""
+dribble = ""
+telegram = "https://t.me/finlab76"
+vk = "https://vk.com/finlab76"

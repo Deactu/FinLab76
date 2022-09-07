@@ -3,6 +3,7 @@
 {{ with .Site.Params.two }}
 {{ if .enable }}
 <section id="two" class="wrapper alt style2">
+  <h2 style="padding-top: 10px; padding-bottom: 10px; margin: 0px; text-align: center;">Направления деятельности</h2>
   {{ range .section }}
 	<section class="spotlight">
     <div class="image"><img src="{{ .img | relURL }}" alt="" /></div><div class="content">

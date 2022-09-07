@@ -3,29 +3,35 @@
             <h2>Где нас найти</h2>
 						<ul class="icons">
               {{ with .Site.Params.social.twitter }}
-              <li><a href="https://twitter.com/{{ . }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+              <li><a href="{{ . }}" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
               {{ end }}
               {{ with .Site.Params.social.facebook }}
-              <li><a href="https://facebook.com/{{ . }}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+              <li><a href="{{ . }}" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
               {{ end }}
               {{ with .Site.Params.social.instagram }}
-              <li><a href="https://instagram.com/{{ . }}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+              <li><a href="{{ . }}" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
               {{ end }}
               {{ with .Site.Params.social.dribble }}
-              <li><a href="https://dribble.com/{{ . }}" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+              <li><a href="{{ . }}" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
               {{ end }}
-              {{ with .Site.Params.contact.email }}
+              {{ with .Site.Params.social.email }}
               <li><a href="mailto:{{ . }}" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
               {{ end }}
-              {{ with .Site.Params.contact.phone }}
+              {{ with .Site.Params.social.phone }}
               <li><a href="tel:{{ . }}" class="icon fa-phone"><span class="label">Phone</span></a></li>
+              {{ end }}
+              {{ with .Site.Params.social.telegram }}
+              <li><a href="{{ . }}" class="icon fa-telegram"><span class="label">Telegram</span></a></li>
+              {{ end }}
+              {{ with .Site.Params.social.vk }}
+              <li><a href="{{ . }}" class="icon fa-vk"><span class="label">VK</span></a></li>
               {{ end }}
 
              <!-- TODO: тг и пр. -->
 
 						</ul>
 						<ul class="copyright">
-              <!-- <li>&copy; {{ now.Year }} {{.Site.Params.copyright | safeHTML }}</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
+              <li>FinLab76 &copy; 2022.</li><li><small>Deactu. Hugo Spectral</small></li>
 						</ul>
 					</footer>
 

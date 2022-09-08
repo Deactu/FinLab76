@@ -4137,3 +4137,97 @@ input, select, textarea {
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
     box-shadow: none !important;
 }
+
+/*Formq-a*/
+*{
+    box-sizing: border-box;
+}
+bodys{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background: url('../images/bg.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.quiz-header h2{
+    padding: 16px;
+    text-align: left;
+    margin: 0;
+	position: relative;
+
+}
+.quiz-box{
+    background-color: rgba(0, 157, 255, 0.726);
+    border-radius: 10px;
+	border: 20px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: auto;
+	height: 500%;
+	position: relative;
+    overflow: hidden;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 0%;
+	margin-bottom: 3%;
+	display:contents;
+}
+.quiz-header{
+    padding: 40px;
+	padding-left: 64px;
+	padding-bottom: 0;
+}
+.quiz-header ul{
+    list-style: none;
+	padding-left: 0;
+    padding-bottom: 0;
+	text-align: left;
+}
+.quiz-header ul li{
+    font-size: 20px;
+    margin: 10px 0;
+	padding-left: 0;
+}
+.quiz-header ul li label{
+    cursor: pointer;
+}
+.buttonq {
+    background-color: #167bbc;
+    border: none;
+    display: block;
+    width: auto;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+    position: relative;
+    transition: all 0.5s ease;
+	padding: 0% 50% 0 0%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	position: relative;
+	
+
+}
+
+.buttonq button {
+	width: 600%;
+	max-width: 700%;
+	color: #fff;
+}
+.buttonq button:hover{
+    background-color: rgba(0, 255, 204, 0.445);
+}
+
+.wrapper.style1 input[type=radio]+label:before {
+	background: rgba(0, 255, 204, 0.445);
+}

@@ -19,7 +19,7 @@
 
 <link rel="stylesheet" href="../css/owl.carousel.min.css">
 <link rel="stylesheet" href="../css/owl.theme.default.min.css">
-<link rel="stylesheet" href="../css/main.min.2bc63cb3bc5cc86d6959c702c0e8c20e96dfeb46625f6d2c925ff090d9062cb1b56ab3fb1429abb0c0b79813b4d36539b42e5e53d6ba84fc6714c5ab7cc8d7d0.css">
+<link rel="stylesheet" href="../css/main.min.c4b9ebe2f495e21c7b90407d0f4d12e6235cb2c0f7b183a617c22b3411b2bd622fc0f17419be70f8deeb8a29da194152ac482bf713512a52f017c280dfef5fc5.css">
 
 
 <noscript><link rel="stylesheet" href="../css/noscript.min.e6f1ba19697eecfddfbf83ff7181b98181998f163d7005f6ae923451556bf85bef357f43dffe1522b92c1efab7fb38441f479e39b7a03e4313a8ef12b0b01f65.css"></noscript>
@@ -134,15 +134,20 @@
 <script>
     $('.owl-carousel').owlCarousel({
         center: true,
-        items:2,
         loop:true,
-        autoWidth:true,
         margin:10,
+        autoWidth: true,
         responsive:{
-            600:{
-                items:4
-            }
+        0:{
+            items:1,
+        },
+        600:{
+            items:3,
+        },
+        1000:{
+            items:5,
         }
+    }
     })
 </script>
 

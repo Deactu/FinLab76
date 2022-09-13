@@ -1,0 +1,17 @@
+{{ $md := .Site.Params.body_is_markdown | default false }}
+
+{{ with .Site.Params.two }}
+{{ if .enable }}
+<section id="two" class="wrapper alt style2">
+  <h2 style="padding-top: 10px; padding-bottom: 10px; margin: 0px; text-align: center; background-color: rgba(0, 157, 255, 0.63);">Направления деятельности</h2>
+  {{ range .section }}
+	<section class="spotlight">
+    <div class="image"><img src="{{ .img | relURL }}" alt="" /></div><div class="content">
+      <h2>{{ .title | safeHTML }}</h2>
+      {{ partial "body_text.html" (dict "context" . "md" $md) }}
+		</div>
+	</section>
+  {{ end }}
+</section>
+{{ end }}
+{{ end }}

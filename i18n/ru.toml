@@ -1,0 +1,32 @@
+[menu]
+other = "Меню"
+
+[learnmore]
+other = " "
+
+[name]
+other = "Имя"
+
+[email]
+other = "Email"
+
+[phone]
+other = "Номер телефона"
+
+[address]
+other = "Адрес"
+
+[yourmessage]
+other = "Сообщение"
+
+[send]
+other = "отправить"
+
+[reset]
+other = "заново"
+
+[allarticles]
+other = "все статьи"
+
+[readmore]
+other = "Подробнее..."

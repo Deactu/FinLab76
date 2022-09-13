@@ -287,18 +287,20 @@
 <script src="./js/owl.carousel.min.js"></script>
 
 <script>
-    $('.owl-carousel').owlCarousel({
-        center: true,
-        items:2,
-        loop:true,
-        autoWidth:true,
-        margin:10,
-        responsive:{
-            600:{
-                items:4
-            }
-        }
-    })
+	$(window).on('load', function() {
+		$('.owl-carousel').owlCarousel({
+			center: true,
+			items:2,
+			loop:true,
+			autoWidth:true,
+			margin:10,
+			responsive:{
+				600:{
+					items:4
+				}
+			}
+		});
+	});
 </script>
 
 
